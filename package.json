@@ -2,8 +2,13 @@
 	"name": "special-characters-converter",
 	"displayName": "Special Characters Converter",
 	"description": "Convert special characters in file",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "thiagoguardado",
+	"author": {
+		"name": "Thiago Guardado Beltran",
+		"email": "thiagoguardado@gmail.com"
+	},
+	"icon":"images/icon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/thiagoguardado/Special-Characters-Converter---VS-Code-Extension.git"
@@ -42,10 +47,13 @@
 		"@types/vscode": "^1.36.0",
 		"eslint": "^5.13.0",
 		"glob": "^7.1.4",
-		"lodash.forin": "^4.4.0",
 		"mocha": "^6.1.4",
 		"typescript": "^3.3.1",
 		"vsce": "^1.67.1",
 		"vscode-test": "^1.2.0"
-	}
+	},
+	"dependencies": {
+		"lodash.forin": "^4.4.0"
+	},
+	"license": "MIT"
 }
